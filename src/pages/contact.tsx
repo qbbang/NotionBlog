@@ -11,30 +11,25 @@ import LinkedIn from '../components/svgs/linkedin'
 
 const contacts = [
   {
-    Comp: Twitter,
-    alt: 'twitter icon',
-    link: 'https://twitter.com/_ijjk',
-  },
-  {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/ijjk',
+    link: 'https://github.com/qbbang',
   },
-  {
-    Comp: LinkedIn,
-    alt: 'linkedin icon',
-    link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
-  },
+  // {
+  //   Comp: LinkedIn,
+  //   alt: 'linkedin icon',
+  //   link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
+  // },
   {
     Comp: Envelope,
     alt: 'envelope icon',
-    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
+    link: 'mailto:qbbang@gmail.com',
   },
 ]
 
 export default () => (
   <>
-    <Header titlePre="Contact" />
+    <Header titlePre="About" />
     <div className={sharedStyles.layout}>
       <div className={contactStyles.avatar}>
         <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
@@ -43,8 +38,19 @@ export default () => (
       <h1 style={{ marginTop: 0 }}>Contact</h1>
 
       <div className={contactStyles.name}>
-        JJ Kasper - Next.js Engineer @{' '}
-        <ExtLink href="https://vercel.com">Vercel</ExtLink>
+      👨🏻‍💻 지금은? 2020. 10 
+      - KST모빌리티, 마카롱M 앱 iOS 개발자
+
+      🕵🏻‍♂️ 예전에는?
+
+      - Bejewel,  아몬즈 앱 iOS 개발자
+      19.07 ~ 20.08
+      - 케어랩스,  굿닥 앱 iOS 인턴
+      19.02 ~ 19.05
+      - 패스트캠퍼스,  iOS 개발 스쿨 8기
+      18.09 ~ 18.12
+      - 한국이엔이,  셀프주유기 QT 개발자
+      15.08 ~ 18.08
       </div>
 
       <div className={contactStyles.links}>
