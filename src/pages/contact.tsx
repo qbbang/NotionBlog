@@ -41,8 +41,10 @@ export default () => (
         <p>
           <strong>👨🏻‍💻 지금은? 2020. 10 </strong>
           - KST모빌리티, 마카롱M 앱 iOS 개발자
+        </p>
 
-          <strong>🕵🏻‍♂️ 예전에는? </strong>
+        <p>
+          🕵🏻‍♂️ 예전에는?
           - Bejewel,  아몬즈 앱 iOS 개발자
           19.07 ~ 20.08
           - 케어랩스,  굿닥 앱 iOS 인턴

@@ -27,13 +27,14 @@ export default () => (
         </ExtLink>
       </h2> */}
 
-      <Features />
+      {/* <Features /> */}
 
       <div className="explanation">
         <p>
           Next.js + vercel + Notion
-          해당 사이트는 {' '} 깃헙을 clone하여 수정함. 
+          해당 사이트는 {' '}
           <ExtLink href="https://github.com/ijjk/notion-blog">ijjk/notion-blog</ExtLink> 
+          깃헙을 clone하여 수정함. 
         </p>
         {/* <p>
           This is a statically generated{' '}
