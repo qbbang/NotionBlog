@@ -31,9 +31,9 @@ export default () => (
 
       <div className="explanation">
         <pre>
-          Next.js + vercel + Notion
+          Next.js + vercel + Notion<br/>
           해당 사이트는 {' '}
-          <ExtLink href="https://github.com/ijjk/notion-blog">ijjk/notion-blog</ExtLink>
+          <ExtLink href="https://github.com/ijjk/notion-blog">ijjk/notion-blog</ExtLink><br/>
           Github을 clone하여 수정함.
         </pre>
         {/* <p>
