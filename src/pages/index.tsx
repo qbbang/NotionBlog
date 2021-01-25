@@ -9,14 +9,14 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <img
+      {/* <img
         src="/vercel-and-notion.png"
         height="85"
         width="250"
         alt="Vercel + Notion"
-      />
-      <h1>My Notion Blog</h1>
-      <h2>
+      /> */}
+      <h1>배워서 홈을 꾸미자</h1>
+      {/* <h2>
         Blazing Fast Notion Blog with Next.js'{' '}
         <ExtLink
           href="https://github.com/vercel/next.js/issues/9524"
@@ -25,12 +25,17 @@ export default () => (
         >
           SSG
         </ExtLink>
-      </h2>
+      </h2> */}
 
       <Features />
 
       <div className="explanation">
         <p>
+          Next.js + vercel + Notion
+          해당 사이트는 {' '} 깃헙을 clone하여 수정함. 
+          <ExtLink href="https://github.com/ijjk/notion-blog">ijjk/notion-blog</ExtLink> 
+        </p>
+        {/* <p>
           This is a statically generated{' '}
           <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
           <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
@@ -59,7 +64,7 @@ export default () => (
           for finding the new page's id. To get your token from Notion, login
           and look for a cookie under www.notion.so with the name `token_v2`.
           After finding your token and your blog's page id you should be good to
-          go!
+          go! */}
         </p>
       </div>
     </div>
