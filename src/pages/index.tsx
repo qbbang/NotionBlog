@@ -30,12 +30,12 @@ export default () => (
       {/* <Features /> */}
 
       <div className="explanation">
-        <p>
+        <pre>
           Next.js + vercel + Notion
           해당 사이트는 {' '}
-          <ExtLink href="https://github.com/ijjk/notion-blog">ijjk/notion-blog</ExtLink> 
-          깃헙을 clone하여 수정함. 
-        </p>
+          <ExtLink href="https://github.com/ijjk/notion-blog">ijjk/notion-blog</ExtLink>
+          Github을 clone하여 수정함.
+        </pre>
         {/* <p>
           This is a statically generated{' '}
           <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}

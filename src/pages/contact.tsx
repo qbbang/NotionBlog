@@ -38,12 +38,12 @@ export default () => (
       <h1 style={{ marginTop: 0 }}>👀 한눈에 보기</h1>
 
       <div className={contactStyles.name}>
-        <p>
+        <pre>
           <strong>👨🏻‍💻 지금은? 2020. 10 </strong>
           - KST모빌리티, 마카롱M 앱 iOS 개발자
-        </p>
+        </pre>
 
-        <p>
+        <pre>
           🕵🏻‍♂️ 예전에는?
           - Bejewel,  아몬즈 앱 iOS 개발자
           19.07 ~ 20.08
@@ -53,7 +53,7 @@ export default () => (
           18.09 ~ 18.12
           - 한국이엔이,  셀프주유기 QT 개발자
           15.08 ~ 18.08
-        </p>
+        </pre>
       </div>
 
       <div className={contactStyles.links}>
