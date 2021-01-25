@@ -37,7 +37,7 @@ export default () => (
 
       <h1 style={{ marginTop: 0 }}>👀 한눈에 보기</h1>
 
-      <div className={contactStyles.name}>
+      <div className={contactStyles.about}>
         <pre>
           <strong>👨🏻‍💻 지금은? 2020. 10 </strong><br/>
           - KST모빌리티, 마카롱M 앱 iOS 개발자<br/>
@@ -55,6 +55,8 @@ export default () => (
           15.08 ~ 18.08<br/>
         </pre>
       </div>
+
+      .name
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
