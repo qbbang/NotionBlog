@@ -1,5 +1,5 @@
 { 
     "appclips": {
-	"apps": [kst.macaron.qbbang.xxxx.mfruit.Clip]
+	"apps": ["kst.macaron.qbbang.xxxx.mfruit.Clip", "kst.macaron.rider.clip"]
     }
 }
