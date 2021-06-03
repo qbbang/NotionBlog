@@ -1,5 +1,14 @@
-{ 
-    "appclips": {
-	"apps": ["kst.macaron.qbbang.xxxx.mfruit.Clip", "kst.macaron.rider.clip"]
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+           {
+             "appID": "MPVJ27WLA7.kst.macaron.rider",
+             "paths": []
+           }
+       ]
+   }, 
+   "appclips": {
+        "apps": ["MPVJ27WLA7.kst.macaron.rider.clip"]
     }
 }
