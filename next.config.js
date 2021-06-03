@@ -35,6 +35,10 @@ module.exports = {
         {
           source: '/.well-known/apple-app-site-association',
           headers: [{ key: 'content-type', value: 'application/json' }]
+        },
+        {
+          source: '/.well-known/assetlinks',
+          headers: [{ key: 'content-type', value: 'application/json' }]
         }
       ]
     }
