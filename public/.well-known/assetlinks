@@ -2,6 +2,6 @@
     {
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target" : { "namespace": "android_app", "package_name": "kst.macaron.rider",
-                 "sha256_cert_fingerprints": ["8C:86:16:93:0C:2D:24:FB:1F:B8:73:D4:79:31:CE:3D:B6:09:B5:C9:86:6C:52:E0:95:56:DD:9E:AE:D7:DB:DC"] }
+                "sha256_cert_fingerprints": ["9F:BB:DF:8C:6A:77:D1:B9:6F:F1:BE:F1:77:DE:C8:7E:2B:42:6F:D6:F6:F6:E5:78:13:61:8C:A5:43:8F:DB:DB"] }
     }
 ]
